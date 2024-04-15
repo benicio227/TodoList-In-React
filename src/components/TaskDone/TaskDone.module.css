@@ -1,0 +1,64 @@
+.task {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 4.5rem;
+    border-radius: 0.5rem;
+    padding: 1rem 1rem;
+    gap: 0.75rem;
+    background: var(--gray-400);
+    margin-bottom: 0.75rem;
+}
+
+.task input {
+    width: 39.5rem;
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    color: var(--gray-100);
+    background: transparent;
+}
+
+.task img {
+    height: 1.5rem;
+    width: 1.5rem;
+    color: var(--gray-300);
+    cursor: pointer;
+}
+
+
+
+.task label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    border: none;
+    border: 2px solid var(--blue);
+    cursor: pointer;
+}
+
+.task label img {
+    height: 0.75rem;
+    width: 0.75rem;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: var(--gray-300);
+    transition: color 0.7s ease;
+}
+
+.completed input {
+    color: var(--gray-300);
+    transition: color 0.7s ease;
+}
+
+.completed label {
+    background: #5E60CE;
+    border: none;
+}

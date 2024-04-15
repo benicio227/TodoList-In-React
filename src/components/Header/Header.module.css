@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: var(--gray-700);
+    height: 12.5rem;
+}
+
+.header img {
+    height: 2.25rem;
+    width: 1.375rem;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.span1 {
+    color: var(--blue);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.span2 {
+    color: #5E60CE;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+

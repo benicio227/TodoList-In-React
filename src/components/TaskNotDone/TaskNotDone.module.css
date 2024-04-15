@@ -1,0 +1,23 @@
+
+.contentTask {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.contentTask  p:first-of-type {
+    font-weight: bold;
+    color: var(--gray-300);
+    line-height: 1.5rem;
+}
+
+.contentTask  p:nth-of-type(2) {
+    color: var(--gray-300);
+}
+
+
+.contentTask img {
+    margin-bottom: 1rem;
+}
